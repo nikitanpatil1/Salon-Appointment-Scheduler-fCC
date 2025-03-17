@@ -1,5 +1,10 @@
 # Salon-Appointment-Scheduler-fCC
 
+
+
+[*salon.sql*](https://github.com/nikitanpatil1/Salon-Appointment-Scheduler-fCC/blob/main/salon.sql)
+[*salon.sh*](https://github.com/nikitanpatil1/Salon-Appointment-Scheduler-fCC/blob/main/salon.sh)
+
 ![Image](https://github.com/user-attachments/assets/c907d3e5-90a5-4e85-a338-f693c32042de)
 
 ![Image](https://github.com/user-attachments/assets/22d824e9-681e-494d-aef1-6246b76140ea)
