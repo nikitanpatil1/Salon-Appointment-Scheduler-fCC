@@ -6,7 +6,7 @@
 
 Create a bash script which will take appointment information from user as a input and save that information in the database according to the conditions below:
 
-- Part 1: Create the database 
+### Part 1: Create the database 
 
   Create your database structure according to the user stories below. 
   - Create a database named **salon** and then create tables named **customers**, **appointments**, and **services**.
@@ -17,7 +17,7 @@ Create a bash script which will take appointment information from user as a inpu
   - There should be at least three rows in The *services* table for the different services offered, one with a **service_id** of **1**.
   
 
-- Part 2: Create bash script
+### Part 2: Create bash script
 
   Complete the script file to interact with user.
   -  Create a script file named **salon.sh** in the project folder. File should have a "shebang" that uses bash when the file is executed.
@@ -31,40 +31,58 @@ Create a bash script which will take appointment information from user as a inpu
   -  Make sure the script finishes running after completing any of the tasks above.
 
 
+## Solution
 
-[*salon.sql*](https://github.com/nikitanpatil1/Salon-Appointment-Scheduler-fCC/blob/main/salon.sql)
-[*salon.sh*](https://github.com/nikitanpatil1/Salon-Appointment-Scheduler-fCC/blob/main/salon.sh)
+### Part 1: Create the database 
 
-![Image](https://github.com/user-attachments/assets/c907d3e5-90a5-4e85-a338-f693c32042de)
+  The database and tables were created according to the above conditions, the queries are present in  [*salon.sql*](https://github.com/nikitanpatil1/Salon-Appointment-Scheduler-fCC/blob/main/salon.sql) file.
+  
+  #### Create the database output:
+  
+  ![Image](https://github.com/user-attachments/assets/1369e4a9-6aeb-473e-a196-ac6833fb419e)
 
-![Image](https://github.com/user-attachments/assets/22d824e9-681e-494d-aef1-6246b76140ea)
+![Image](https://github.com/user-attachments/assets/5da6e54b-69b2-41fb-a3f4-44b5e1aa8940)
 
-![Image](https://github.com/user-attachments/assets/805fddbc-b9cc-48f1-b6d5-d2a6d20bde0a)
+  ![Image](https://github.com/user-attachments/assets/7d24eded-bedb-43ac-85fa-616301637f4d)
 
-![Image](https://github.com/user-attachments/assets/3cb6c596-7e3d-4f89-b752-caea27125305)
+  ![Image](https://github.com/user-attachments/assets/d2735918-fb3f-443d-97d8-0bb0c1cf7f0c)
 
-![Image](https://github.com/user-attachments/assets/2793e11e-0034-4d98-ae96-5650bd7d7a99)
+  ![Image](https://github.com/user-attachments/assets/b8c42db7-e948-489e-8b82-4af24c5a9d11)
 
-![Image](https://github.com/user-attachments/assets/4fc33069-57e9-4cc4-92e7-7beb1324e4df)
+  ![Image](https://github.com/user-attachments/assets/f5203242-a5a7-41ba-a997-9fc399446d50)
+  
+  
+### Part 2: Create bash script 
+  
+   According to the above conditions a *bash script* was created which is in the file named  [*salon.sh*](https://github.com/nikitanpatil1/Salon-Appointment-Scheduler-fCC/blob/main/salon.sh)  which when executed gets the required information from the users and inserts it in the database into the respective tables.
+  
+  #### Output of how the script works:
+  
+  - **Output when there is new user**:
+  
+     Whenever there is new user the script asks user for it's "name" and updates the **users** table by adding that respective user in database and updates appointment details.
 
-![Image](https://github.com/user-attachments/assets/02d93349-5d46-4e7a-916e-6a09924596f4)
+     ![Image](https://github.com/user-attachments/assets/2793e11e-0034-4d98-ae96-5650bd7d7a99)
+    
+     ![Image](https://github.com/user-attachments/assets/3cb6c596-7e3d-4f89-b752-caea27125305)
+  
+  - **Output when user already exists**:
+  
+     When the user already exists then the script just updates the appointment table by inserting the appointment details.
+    
+    ![Image](https://github.com/user-attachments/assets/4fc33069-57e9-4cc4-92e7-7beb1324e4df)
 
-![Image](https://github.com/user-attachments/assets/1c4ce74e-f361-4169-8a10-a38066d13b36)
+    ![Image](https://github.com/user-attachments/assets/02d93349-5d46-4e7a-916e-6a09924596f4)
+  
+  
+  - **Output when user enter wrong service number**:
+     
+	  Whenever user enters the wrong service number the script keeps on asking the user to enter the right service number from the above service list present.
+  
+    ![Image](https://github.com/user-attachments/assets/36165d4d-74d0-4a89-a38e-4b84fd294dba)
 
-![Image](https://github.com/user-attachments/assets/4b20ca60-c5db-4e3c-a402-b14c0c3e70aa)
+  
+  - **Output of database after updating information in its respective tables**:
+  
+    ![Image](https://github.com/user-attachments/assets/9250c3e4-f3ca-4a86-a76e-8fe2efc19d09)
 
-![Image](https://github.com/user-attachments/assets/36165d4d-74d0-4a89-a38e-4b84fd294dba)
-
-![Image](https://github.com/user-attachments/assets/9250c3e4-f3ca-4a86-a76e-8fe2efc19d09)
-
-![Image](https://github.com/user-attachments/assets/6d07786d-2547-476f-94ab-75e94581a2d5)
-
-![Image](https://github.com/user-attachments/assets/b0cc4bb3-29c1-4579-af47-249e1fb05df6)
-
-![Image](https://github.com/user-attachments/assets/e70327d2-7ac9-4c9c-a6b1-1b1f14215568)
-
-![Image](https://github.com/user-attachments/assets/f9f04f8b-4f0d-46f3-b679-0c1bc69cac21)
-
-![Image](https://github.com/user-attachments/assets/6b3e8a0e-f75a-498e-9b7d-fd04ebfd030f)
-
-![Image](https://github.com/user-attachments/assets/b206ea2c-5189-4faf-b586-455adcbf242e)
