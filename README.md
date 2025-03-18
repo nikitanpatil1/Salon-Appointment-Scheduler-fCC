@@ -41,7 +41,7 @@ Create a bash script which will take appointment information from user as a inpu
   
   ![Image](https://github.com/user-attachments/assets/1369e4a9-6aeb-473e-a196-ac6833fb419e)
 
-![Image](https://github.com/user-attachments/assets/5da6e54b-69b2-41fb-a3f4-44b5e1aa8940)
+  ![Image](https://github.com/user-attachments/assets/672f64c3-0df3-44eb-a91e-93e4cd7f3e6c)
 
   ![Image](https://github.com/user-attachments/assets/7d24eded-bedb-43ac-85fa-616301637f4d)
 
@@ -60,26 +60,29 @@ Create a bash script which will take appointment information from user as a inpu
   
   - **Output when there is new user**:
   
-     Whenever there is new user the script asks user for it's "name" and updates the **users** table by adding that respective user in database and updates appointment details.
-
-     ![Image](https://github.com/user-attachments/assets/2793e11e-0034-4d98-ae96-5650bd7d7a99)
+       Whenever there is new user the script asks user for it's "name" and updates the **customers** table by adding that respective user in database and updates appointment details.
     
-     ![Image](https://github.com/user-attachments/assets/3cb6c596-7e3d-4f89-b752-caea27125305)
+       ![Image](https://github.com/user-attachments/assets/2793e11e-0034-4d98-ae96-5650bd7d7a99)
+    
+       ![Image](https://github.com/user-attachments/assets/3cb6c596-7e3d-4f89-b752-caea27125305)
+    
   
   - **Output when user already exists**:
   
-     When the user already exists then the script just updates the appointment table by inserting the appointment details.
+       When the user already exists then the script just updates the appointment table by inserting the appointment details.
     
-    ![Image](https://github.com/user-attachments/assets/4fc33069-57e9-4cc4-92e7-7beb1324e4df)
+       ![Image](https://github.com/user-attachments/assets/4fc33069-57e9-4cc4-92e7-7beb1324e4df)
 
-    ![Image](https://github.com/user-attachments/assets/02d93349-5d46-4e7a-916e-6a09924596f4)
+       ![Image](https://github.com/user-attachments/assets/02d93349-5d46-4e7a-916e-6a09924596f4)
+    
   
   
   - **Output when user enter wrong service number**:
      
-	  Whenever user enters the wrong service number the script keeps on asking the user to enter the right service number from the above service list present.
+      Whenever user enters the wrong service number the script keeps on asking the user to enter the right service number from the above service list present.
   
-    ![Image](https://github.com/user-attachments/assets/36165d4d-74d0-4a89-a38e-4b84fd294dba)
+       ![Image](https://github.com/user-attachments/assets/36165d4d-74d0-4a89-a38e-4b84fd294dba)
+    
 
   
   - **Output of database after updating information in its respective tables**:
