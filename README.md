@@ -9,7 +9,7 @@ Create a bash script which will take appointment information from user as a inpu
 - Part 1: Create the database 
 
   Create your database structure according to the user stories below. 
-  - Create a database named ** salon** and then create tables named **customers**, **appointments**, and **services**.
+  - Create a database named **salon** and then create tables named **customers**, **appointments**, and **services**.
   - Each table should have a primary key column that automatically increments. Each primary key column should follow the naming convention, **table_name_id**. For example, the customers table should have a **customer_id** key.
   - The *appointments* table should have a **customer_id** foreign key that references the **customer_id** column from the *customers* table. The *appointments* table should have a **service_id** foreign key that references the **service_id** column from the *services* table .
   - The *customers* table should have **phone** column that is a *VARCHAR* and must be *unique*. The *customers* and *services* tables should have a **name** column.
