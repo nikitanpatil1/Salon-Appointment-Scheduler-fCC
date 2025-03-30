@@ -89,3 +89,6 @@ Create a bash script which will take appointment information from user as a inpu
   
     ![Image](https://github.com/user-attachments/assets/9250c3e4-f3ca-4a86-a76e-8fe2efc19d09)
 
+
+
+<!-- This project involves creating a Bash script that manages salon appointments using a PostgreSQL database. The script handles customer data, services, and appointments by checking if the customer exists, adding new customers if necessary, and recording appointments. It provides a confirmation message after successfully scheduling an appointment. -->
